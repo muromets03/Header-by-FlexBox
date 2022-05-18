@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin:  0 ;
+  color: white; 
+  list-style: none;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  padding: 30px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(41, 39, 39);
+}
+
+.logo {  
+  padding-bottom: 5px;
+  padding-right: 5px;
+  font-family: "Comic Neue", cursive;
+  font-size: 1.5em;
+}
+
+
+ul {
+  
+  padding-left: 0px;
+  font-weight: bold;
+  
+}
+
+.nav-item {
+  display: inline-block;
+  padding:  25px 10px 25px 0px;
+}
+
+.btn_1 {
+  padding: 10px; 
+  border: 3px solid white;
+  border-radius: 3px;
+  margin-top: 5px; 
+  background-color: rgb(41, 39, 39);
+  font-weight: bold;
+}
